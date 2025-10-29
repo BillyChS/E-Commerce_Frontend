@@ -1,14 +1,12 @@
-# 🛍️ E-Commerce Frontend | Futuros Millonarios Template para que Kevin trabaje
+# 🛍️ E-Commerce Frontend | Futuros Millonarios
 
-## 🇪🇸 Español
-
-### 📖 Descripción
+## 📖 Descripción
 Este es el **frontend** del proyecto **E-Commerce Futuros Millonarios - Daromovil**.  
 Desarrollado con **Vite + React + TypeScript + SWC (Speedy Web Compiler)**, este cliente web ofrece un entorno moderno, rápido y escalable para la experiencia de compra.
 
 ---
 
-### ⚙️ Tecnologías Utilizadas
+## ⚙️ Tecnologías Utilizadas
 - [Vite](https://vitejs.dev/) ⚡ — Herramienta de desarrollo rápida
 - [React](https://react.dev/) — Biblioteca para construir interfaces de usuario
 - [TypeScript](https://www.typescriptlang.org/) — Tipado estático para JavaScript
@@ -17,36 +15,47 @@ Desarrollado con **Vite + React + TypeScript + SWC (Speedy Web Compiler)**, este
 
 ---
 
-### 🚀 Instalación y Ejecución
+## 🚀 Instalación y Ejecución
 
 1. **Clona el repositorio**
    ```bash
    git clone https://github.com/Daromovil/frontend.git
    cd frontend
-Instala las dependencias
+   ```
 
-npm install
+2. **Instala las dependencias**
+   ```bash
+   npm install
+   ```
 
+3. **Ejecuta el entorno local**
+   ```bash
+   npm run dev
+   ```
 
-Ejecuta el entorno local
+   El proyecto se ejecutará en:  
+   👉 http://localhost:5173
 
-npm run dev
+4. **Construir para producción**
+   ```bash
+   npm run build
+   ```
 
+---
 
-El proyecto se ejecutará en:
-👉 http://localhost:5173
+## 🔑 Variables de Entorno
 
-Construir para producción
+Crea un archivo `.env` en la raíz del proyecto con la URL de tu API backend:
 
-npm run build
-
-🔑 Variables de Entorno
-
-Crea un archivo .env en la raíz del proyecto con la URL de tu API backend:
-
+```env
 VITE_API_URL=https://localhost:5001/api
+```
 
-🧱 Estructura del Proyecto
+---
+
+## 🧱 Estructura del Proyecto
+
+```
 frontend/
 │
 ├── src/               # Código fuente principal
@@ -59,9 +68,11 @@ frontend/
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 
-👨‍💻 Autor
+---
 
-Desarrollado por Futuros Millonarios
+## 👨‍💻 Autor
+
+Desarrollado por **Futuros Millonarios**  
 🔗 GitHub: https://github.com/Daromovil
-

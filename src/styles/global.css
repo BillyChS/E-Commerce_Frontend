@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* You can add global CSS here after Tailwind is imported */
+html,
+body {
+  /* Use Tailwind utilities via @apply so PostCSS + Tailwind can expand them */
+  @apply bg-black text-red-900;
+  font-family: "Inter", sans-serif;
+}
